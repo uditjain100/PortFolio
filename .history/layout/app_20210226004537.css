@@ -1,0 +1,31 @@
+/* Introduction */
+
+#Introduction .row #sidebar {
+  height: 100vh;
+}
+
+#greetandimage {
+  display: flex;
+  min-width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+#greet {
+  height: 85vh;
+}
+
+#image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 85vh;
+}
+
+#profilePicture {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}

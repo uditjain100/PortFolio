@@ -1,0 +1,35 @@
+/* Introduction */
+
+#sidebar {
+  height: 100vh;
+}
+
+#greetandimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* height: 85vh; */
+}
+
+#greet {
+  height: 89vh;
+  min-width: 500px;
+}
+
+#image {
+  display: flex;
+  min-width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 89vh;
+}
+
+#profilePicture {
+  border: 2px white solid;
+  width: 300px;
+  height: 300px;
+}
+
+#profilePicture:hover {
+  border: 2px cyan solid;
+  box-shadow: 50px;
+}

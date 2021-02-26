@@ -1,0 +1,13 @@
+/* Introduction */
+
+#Introduction .row #sidebar {
+  height: 100vh;
+}
+
+#greet {
+  height: 80vh;
+}
+
+#image {
+  height: 80vh;
+}

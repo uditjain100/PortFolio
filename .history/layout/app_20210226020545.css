@@ -1,0 +1,59 @@
+/* Introduction */
+
+#sidebar {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.sample {
+  background-color: aqua;
+  height: 16vh;
+}
+
+#sidebar:hover {
+  background-color: brown;
+}
+
+#greetandimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* height: 85vh; */
+}
+
+#greet {
+  height: 89vh;
+  min-width: 500px;
+}
+
+#image {
+  height: 89vh;
+  min-width: 500px;
+}
+
+#image .pic {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#profilePicture {
+  border: 2px white solid;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+#profilePicture:hover {
+  border: 5px cyan solid;
+  transition: 0.5s;
+  box-shadow: 50px;
+}
+
+#name {
+  font-family: "Akaya Telivigala", "Courier New", Courier, monospace;
+}
