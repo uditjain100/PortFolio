@@ -1,0 +1,24 @@
+#navlinksList {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: row;
+}
+
+#navlinksList li {
+  max-width: 200px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#navlinksList li :hover {
+  font-size: 1.5rem;
+  transition: 0.5s;
+  border-bottom: 2px black solid;
+}
+
+#navlinksList li a {
+  color: black;
+  font-family: "Montserrat";
+}

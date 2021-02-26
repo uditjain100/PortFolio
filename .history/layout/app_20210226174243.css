@@ -1,0 +1,7 @@
+/* navbar*/
+
+#navlinksList {
+  display: flex;
+  font-size: 20px;
+  font-family: "Montserrat";
+}

@@ -1,0 +1,39 @@
+#navlinksList {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px black solid;
+}
+
+#navlinksList a {
+  display: flex;
+  justify-content: left;
+  margin-top: 1%;
+  font-size: 30px;
+}
+
+#navlinksList .links {
+  margin-left: auto;
+}
+
+#navlinksList .links li {
+  padding: auto;
+  margin-top: 2%;
+  text-align: center;
+  max-width: 200px;
+  min-width: 120px;
+  display: inline-block;
+}
+
+#navlinksList .links li :hover {
+  font-size: 1.5rem;
+  transition: 0.5s;
+  border-right: 2px black solid;
+  border-left: 2px black solid;
+}
+
+#navlinksList .links li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  font-family: "Montserrat";
+}

@@ -1,0 +1,6 @@
+#navlinksList li {
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+}

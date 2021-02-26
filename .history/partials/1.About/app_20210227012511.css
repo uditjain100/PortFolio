@@ -1,0 +1,17 @@
+#about-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#about-subheading {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#bars {
+  width: 500px;
+  height: 5px;
+  background-color: black;
+}

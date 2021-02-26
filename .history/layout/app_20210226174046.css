@@ -1,0 +1,6 @@
+/* navbar*/
+
+#navlinksList {
+  display: flex;
+  align-items: center;
+}

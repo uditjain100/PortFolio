@@ -1,0 +1,25 @@
+.nav-link {
+  justify-content: center;
+  align-items: center;
+}
+
+#navlinksList li {
+  /* TODO */
+  /* background-color: aqua; */
+  min-width: 150px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#navlinksList li :hover {
+  font-size: 1.5rem;
+  transition: 0.5s;
+  border-bottom: 2px black solid;
+}
+
+#navlinksList li a {
+  color: black;
+  font-family: "Montserrat";
+}

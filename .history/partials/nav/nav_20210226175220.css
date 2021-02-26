@@ -1,0 +1,15 @@
+#navlinksList li {
+  margin: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#navlinksList li :hover {
+  font-size: 1.5rem;
+  border-bottom: 2px black solid;
+}
+
+#navlinksList li a {
+  color: black;
+  font-family: "Montserrat";
+}
