@@ -1,0 +1,60 @@
+#links-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#links-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#links-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#linksHeadings {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#linksHeadings div {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  min-width: 150px;
+}
+
+#techHeading {
+  border-right: 1px black solid;
+}
+
+#socialHeading {
+  border-right: 1px black solid;
+}
+
+#linksHeadings div:hover {
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  transition: 0.1s;
+  font-size: 1.2em;
+  font-weight: 600;
+}

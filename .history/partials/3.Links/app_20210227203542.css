@@ -62,13 +62,14 @@
 #techBasket {
   height: 50vh;
   width: 100%;
-  margin-top: 50px;
+  background-color: aqua;
+  margin-top: 10px;
 }
 
 #socialBasket {
   height: 50vh;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: blue;
   display: none;
 }
@@ -89,11 +90,11 @@
   height: 100%;
   margin-bottom: 20px;
   animation: transitionIn 1s;
+  background-color: white;
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -105,43 +106,15 @@
   background-color: white;
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#techBasketData a {
-  margin: 10px;
-  min-width: 250px;
-  text-decoration: none;
-  transition: 1s;
-  border-top: 2px black solid;
-  border-bottom: 2px black solid;
-  border-radius: 10%;
-
-  display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#techBasketData a:hover {
-  text-decoration: underline;
-  margin-bottom: 1.2rem;
-  box-shadow: 1px 1px 1px 1px;
-  border-radius: 10%;
-}
-
-#techBasketData a div h5 {
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-}
-
-#techBasketData a img {
-  margin-top: 20px;
-  width: 70px;
-  height: 70px;
+#techBasketData a {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

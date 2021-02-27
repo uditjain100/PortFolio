@@ -1,17 +1,17 @@
 const tech = document.querySelector("#techHeading");
 const social = document.querySelector("#socialHeading");
 
-const techBasket = document.querySelector("#techBasket");
+const introBasket = document.querySelector("#introBasket");
 const socialBasket = document.querySelector("#socialBasket");
 
 const removeDisplay = () => {
-  techBasket.style.display = "none";
+  introBasket.style.display = "none";
   socialBasket.style.display = "none";
 };
 
 tech.addEventListener("click", () => {
   removeDisplay();
-  techBasket.style.display = "block";
+  introBasket.style.display = "block";
 });
 
 social.addEventListener("click", () => {
