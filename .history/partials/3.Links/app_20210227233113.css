@@ -2,7 +2,7 @@
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #links-subheading {
@@ -60,11 +60,13 @@
 }
 
 #techBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
 }
 
 #socialBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
   display: none;
@@ -107,8 +109,7 @@
   align-items: center;
 }
 
-#techBasketData a,
-#socialBasketData a {
+#techBasketData a {
   margin: 10px;
   min-width: 250px;
   text-decoration: none;
@@ -125,23 +126,20 @@
   align-items: center;
 }
 
-#techBasketData a:hover,
-#socialBasketData a:hover {
+#techBasketData a:hover {
   text-decoration: underline;
   margin-bottom: 1.2rem;
   box-shadow: 1px 1px 1px 1px;
   border-radius: 10%;
 }
 
-#techBasketData a div h5,
-#socialBasketData a div h5 {
+#techBasketData a div h5 {
   text-decoration: none;
   color: black;
   font-size: 25px;
 }
 
-#techBasketData a img,
-#socialBasketData a img {
+#techBasketData a img {
   margin-top: 20px;
   width: 70px;
   height: 70px;

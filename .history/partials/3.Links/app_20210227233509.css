@@ -2,7 +2,7 @@
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #links-subheading {
@@ -60,11 +60,13 @@
 }
 
 #techBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
 }
 
 #socialBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
   display: none;
@@ -126,7 +128,7 @@
 }
 
 #techBasketData a:hover,
-#socialBasketData a:hover {
+#socialBasketData a :hover {
   text-decoration: underline;
   margin-bottom: 1.2rem;
   box-shadow: 1px 1px 1px 1px;

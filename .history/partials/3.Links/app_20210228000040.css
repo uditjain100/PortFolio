@@ -60,11 +60,13 @@
 }
 
 #techBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
 }
 
 #socialBasket {
+  height: 50vh;
   width: 100%;
   margin-top: 50px;
   display: none;
