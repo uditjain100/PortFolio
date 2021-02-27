@@ -27,7 +27,7 @@
 }
 
 #details {
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,8 +35,6 @@
 }
 
 #details div {
-  border-top: 2px black solid;
-  border-bottom: 2px black solid;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 500;
@@ -44,16 +42,15 @@
 }
 
 #education {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
 }
 
 #details div:hover {
-  border-left: 3px black solid;
-  border-right: 3px black solid;
+  border-bottom: 2px black solid;
   transition: 0.1s;
   font-size: 1.2em;
-  font-weight: 600;
+  text-shadow: 50px;
 }
 
 #detailsBody {
@@ -63,34 +60,24 @@
 #introBasket {
   width: 100%;
   margin-top: 10px;
+  background-color: red;
 }
 #educationBasket {
   width: 100%;
   margin-top: 10px;
   display: none;
 }
-#activitiesBasket {
+#achievementBasket {
   width: 100%;
   margin-top: 10px;
   display: none;
-}
-
-@keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
+  background-color: green;
 }
 
 #introBasketData {
-  width: 90vw;
+  width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
+  background-color: white;
 
   display: flex;
   flex-direction: column;
@@ -101,8 +88,7 @@
 #educationBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
+  background-color: white;
 
   display: flex;
   flex-direction: column;
@@ -110,11 +96,10 @@
   align-items: center;
 }
 
-#activitiesBasketData {
+#achievementBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
+  background-color: white;
 
   display: flex;
   flex-direction: column;
@@ -123,7 +108,7 @@
 }
 
 #highschoolDetails {
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -143,17 +128,10 @@
 }
 
 #introDetails {
-  margin-top: 70px;
-  margin-bottom: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-}
-
-#organiserDetails,
-#volunteerDetails {
-  font-family: "Ubuntu";
 }
 
 #highschoolLeft,
@@ -173,17 +151,6 @@
   line-height: 40px;
 }
 
-#aboutIntroTitle {
-  font-family: "Red Hat Display";
-  font-size: 40px;
-  font-weight: 600;
-}
-
-#activityTitle {
-  font-size: 50px;
-  font-weight: 600;
-}
-
 #highschoolRight,
 #IntermediateRight,
 #graduationRight {
@@ -197,7 +164,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px black solid;
 }
 
 #introDetailsRight {
@@ -217,9 +183,8 @@
 }
 
 #aboutProfileImage {
-  width: 300px;
-  height: 300px;
-  border-radius: 2%;
-  border: 1px white solid;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
   box-shadow: 2px 2px 2px 2px;
 }

@@ -78,19 +78,18 @@
 @keyframes transitionIn {
   from {
     opacity: 0;
-    transform: rotateX(-10deg);
+    transform: rotate(-10deg);
   }
   to {
     opacity: 1;
-    transform: rotateX(0);
+    transform: rotate(0);
   }
 }
 
 #introBasketData {
   width: 90vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
+  animation: transitionIn 0.5s;
 
   display: flex;
   flex-direction: column;
@@ -101,8 +100,6 @@
 #educationBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
 
   display: flex;
   flex-direction: column;
@@ -113,8 +110,6 @@
 #activitiesBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
 
   display: flex;
   flex-direction: column;

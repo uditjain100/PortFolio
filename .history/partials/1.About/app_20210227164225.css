@@ -75,22 +75,9 @@
   display: none;
 }
 
-@keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
-}
-
 #introBasketData {
   width: 90vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
 
   display: flex;
   flex-direction: column;
@@ -101,8 +88,6 @@
 #educationBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
 
   display: flex;
   flex-direction: column;
@@ -113,8 +98,6 @@
 #activitiesBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
-  animation: transitionIn 1s;
 
   display: flex;
   flex-direction: column;
@@ -222,4 +205,15 @@
   border-radius: 2%;
   border: 1px white solid;
   box-shadow: 2px 2px 2px 2px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotate(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0);
+  }
 }

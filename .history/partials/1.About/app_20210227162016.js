@@ -1,6 +1,6 @@
 const intro = document.querySelector("#intro");
 const education = document.querySelector("#education");
-const activities = document.querySelector("#activities");
+const achievement = document.querySelector("#achievements");
 
 const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");
@@ -22,8 +22,8 @@ education.addEventListener("click", () => {
   educationBasket.style.display = "block";
 });
 
-activities.addEventListener("click", () => {
-  console.log("activities Clicked");
+achievement.addEventListener("click", () => {
+  console.log("achievement Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
   activitiesBasket.style.display = "none";

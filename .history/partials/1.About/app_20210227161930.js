@@ -1,6 +1,6 @@
 const intro = document.querySelector("#intro");
 const education = document.querySelector("#education");
-const activities = document.querySelector("#activities");
+const achievement = document.querySelector("#achievements");
 
 const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");
@@ -10,7 +10,7 @@ intro.addEventListener("click", () => {
   console.log("Intro Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  activitiesBasket.style.display = "none";
+  achievementBasket.style.display = "none";
   introBasket.style.display = "block";
 });
 
@@ -18,14 +18,14 @@ education.addEventListener("click", () => {
   console.log("education Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  activitiesBasket.style.display = "none";
+  achievementBasket.style.display = "none";
   educationBasket.style.display = "block";
 });
 
-activities.addEventListener("click", () => {
-  console.log("activities Clicked");
+achievement.addEventListener("click", () => {
+  console.log("achievement Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  activitiesBasket.style.display = "none";
-  activitiesBasket.style.display = "block";
+  achievementBasket.style.display = "none";
+  achievementBasket.style.display = "block";
 });

@@ -89,7 +89,6 @@
 #introBasketData {
   width: 90vw;
   height: 100%;
-  margin-bottom: 20px;
   animation: transitionIn 1s;
 
   display: flex;
@@ -101,7 +100,6 @@
 #educationBasketData {
   width: 80vw;
   height: 100%;
-  margin-bottom: 20px;
   animation: transitionIn 1s;
 
   display: flex;
