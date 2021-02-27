@@ -57,17 +57,18 @@
   margin: 10px;
 }
 
-#introBasket {
+#meta-data1 {
   margin-top: 10px;
   width: 100%;
   background-color: red;
 }
-#educationBasket {
+#meta-data2 {
   display: none;
   margin-top: 10px;
   width: 100%;
+  background-color: yellow;
 }
-#achievementBasket {
+#meta-data3 {
   display: none;
   margin-top: 10px;
   width: 100%;
@@ -120,16 +121,8 @@
   justify-content: space-evenly;
 }
 
-#graduationDetails {
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 #highschoolLeft,
-#IntermediateLeft,
-#graduationLeft {
+#IntermediateLeft {
   min-width: 300px;
   text-align: right;
   font-family: "Spartan";
@@ -137,26 +130,22 @@
 }
 
 #highschoolName,
-#IntermediateName,
-#collegeName {
+#IntermediateName {
   font-weight: 700;
   text-decoration: underline;
   line-height: 40px;
 }
 
 #highschoolRight,
-#IntermediateRight,
-#graduationRight {
+#IntermediateRight {
   text-align: left;
   font-family: "Spartan";
   border-left: 1px black solid;
 }
 
 #highSchoolImage,
-#graduationImage,
-#IntermediateImage {
+#graduationImage {
   width: 50px;
   height: 50px;
-  margin-bottom: 10px;
   border-radius: 50%;
 }

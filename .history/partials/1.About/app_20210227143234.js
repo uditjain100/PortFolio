@@ -4,13 +4,13 @@ const achievement = document.querySelector("#achievements");
 
 const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");
-const achievementBasket = document.querySelector("#achievementBasket");
+const meta3 = document.querySelector("#achievementBasket");
 
 intro.addEventListener("click", () => {
   console.log("Intro Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  achievementBasket.style.display = "none";
+  meta3.style.display = "none";
   introBasket.style.display = "block";
 });
 
@@ -18,7 +18,7 @@ education.addEventListener("click", () => {
   console.log("education Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  achievementBasket.style.display = "none";
+  meta3.style.display = "none";
   educationBasket.style.display = "block";
 });
 
@@ -26,6 +26,6 @@ achievement.addEventListener("click", () => {
   console.log("achievement Clicked");
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
-  achievementBasket.style.display = "none";
-  achievementBasket.style.display = "block";
+  meta3.style.display = "none";
+  meta3.style.display = "block";
 });

@@ -1,0 +1,86 @@
+#about-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#about-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#details div {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  min-width: 150px;
+}
+
+#education {
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+}
+
+#details div:hover {
+  border-bottom: 2px black solid;
+  transition: 0.1s;
+  font-size: 1.2em;
+  text-shadow: 50px;
+}
+
+#detailsBody {
+  margin: 10px;
+}
+
+#meta-data1 {
+  margin-top: 10px;
+  height: 70vh;
+  width: 100%;
+  background-color: red;
+}
+#meta-data2 {
+  display: none;
+  margin-top: 10px;
+  height: 70vh;
+  width: 100%;
+  background-color: yellow;
+}
+#meta-data3 {
+  display: none;
+  margin-top: 10px;
+  height: 70vh;
+  width: 100%;
+  background-color: green;
+}
+
+#introBasketData {
+  margin: auto;
+  width: 80vw;
+  height: 90%;
+  background-color: white;
+}

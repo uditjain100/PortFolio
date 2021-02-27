@@ -57,19 +57,23 @@
   margin: 10px;
 }
 
-#introBasket {
+#meta-data1 {
   margin-top: 10px;
+  height: 70vh;
   width: 100%;
   background-color: red;
 }
-#educationBasket {
+#meta-data2 {
   display: none;
   margin-top: 10px;
+  height: 70vh;
   width: 100%;
+  background-color: yellow;
 }
-#achievementBasket {
+#meta-data3 {
   display: none;
   margin-top: 10px;
+  height: 70vh;
   width: 100%;
   background-color: green;
 }
@@ -107,56 +111,13 @@
   align-items: center;
 }
 
-#highschoolDetails {
-  margin-top: 100px;
+#educationLeft {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
 }
 
-#IntermediateDetails {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#graduationDetails {
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#highschoolLeft,
-#IntermediateLeft,
-#graduationLeft {
-  min-width: 300px;
-  text-align: right;
-  font-family: "Spartan";
-  border-right: 1px black solid;
-}
-
-#highschoolName,
-#IntermediateName,
-#collegeName {
-  font-weight: 700;
-  text-decoration: underline;
-  line-height: 40px;
-}
-
-#highschoolRight,
-#IntermediateRight,
-#graduationRight {
-  text-align: left;
-  font-family: "Spartan";
-  border-left: 1px black solid;
-}
-
-#highSchoolImage,
-#graduationImage,
-#IntermediateImage {
+#highSchoolImage {
   width: 50px;
   height: 50px;
-  margin-bottom: 10px;
   border-radius: 50%;
 }
