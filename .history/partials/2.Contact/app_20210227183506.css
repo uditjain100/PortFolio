@@ -1,0 +1,76 @@
+#contact-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#contact-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#contactdetails {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#phoneDetails,
+#addressDetails,
+#emailDetails {
+  border: 1px black solid;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#phoneDetails img,
+#addressDetails img,
+#emailDetails img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+#messageHeadingArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#messageHeading {
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#msg-bars {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}

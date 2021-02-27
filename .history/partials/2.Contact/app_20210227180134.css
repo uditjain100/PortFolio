@@ -1,0 +1,43 @@
+#contact-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#contact-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#contactdetails {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#phoneDetails,
+#addressDetails,
+#emailDetails {
+  height: 25vh;
+  background-color: aqua;
+}

@@ -13,16 +13,19 @@ const removeDisplay = () => {
 };
 
 intro.addEventListener("click", () => {
-  removeDisplay();
+  console.log("Intro Clicked");
   introBasket.style.display = "block";
 });
 
 education.addEventListener("click", () => {
-  removeDisplay();
+  console.log("education Clicked");
   educationBasket.style.display = "block";
 });
 
 activities.addEventListener("click", () => {
-  removeDisplay();
+  console.log("activities Clicked");
+  introBasket.style.display = "none";
+  educationBasket.style.display = "none";
+  activitiesBasket.style.display = "none";
   activitiesBasket.style.display = "block";
 });
