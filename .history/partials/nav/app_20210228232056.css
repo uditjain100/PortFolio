@@ -1,0 +1,15 @@
+#navtitle {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 300;
+  border: 1px green solid;
+  margin-left: 50px;
+}
+
+#navlist li {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}

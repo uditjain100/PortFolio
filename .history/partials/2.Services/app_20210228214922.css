@@ -1,0 +1,72 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+html {
+  animation: transitionIn 1s;
+}
+
+#services-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#services-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#services-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#servicesdetails {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#androiddetails,
+#webdetails {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#androiddetails img,
+#webdetails img {
+  height: 200px;
+  width: 200px;
+}
+
+#androiddetails #title,
+#webdetails #title {
+  font-family: "Montserrat";
+  font-size: 28px;
+}

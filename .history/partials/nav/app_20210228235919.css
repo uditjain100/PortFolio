@@ -1,0 +1,28 @@
+#navtitle {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 40px;
+}
+
+#navlist li {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.1s;
+}
+
+#navlist li img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#navlist li:hover {
+  font-weight: 500;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-bottom: 2px white solid;
+}
