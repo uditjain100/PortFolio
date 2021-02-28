@@ -27,31 +27,11 @@
 }
 
 #servicesdetails {
-  margin-top: 100px;
-  margin-bottom: 100px;
-
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-}
-
-#androiddetails,
-#webdetails {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  border: none;
-}
-
-#androiddetails img,
-#webdetails img {
-  height: 200px;
-  width: 200px;
-}
-
-#androiddetails #title,
-#webdetails #title {
-  font-family: "Montserrat";
-  font-size: 28px;
 }
