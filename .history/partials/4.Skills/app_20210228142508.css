@@ -1,0 +1,244 @@
+#skills-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#skills-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#skills-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#skillsdetails {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#skillsdetails div {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  min-width: 150px;
+}
+
+#ides,
+#dbs {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+#skillsdetails div:hover {
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  transition: 0.1s;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#skillsdetailsBody {
+  margin-top: 40px;
+}
+
+#androidTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: "Roboto Slab";
+}
+
+#androidlanguages,
+#cplanguages,
+#weblanguages {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#languageDetails {
+  min-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Quicksand";
+}
+
+#kotlinlanguageProgress,
+#javalanguageProgress,
+#xmllanguageProgress,
+#cjlanguageProgress,
+#clanguageProgress,
+#htmllanguageProgress,
+#csslanguageProgress,
+#javascriptlanguageProgress,
+#reactlanguageProgress {
+  width: 100%;
+  background-color: lightgray;
+  height: 8px;
+  position: relative;
+}
+
+@keyframes transitionkotlin {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+#kotlinlanguageProgress::before {
+  width: 80%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionkotlin 1s;
+  position: absolute;
+}
+
+@keyframes transitionjava {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%;
+  }
+}
+
+#javalanguageProgress::before {
+  width: 55%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionjava 1s;
+  position: absolute;
+}
+
+@keyframes transitionxml {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+#xmllanguageProgress::before {
+  width: 85%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionxml 1s;
+  position: absolute;
+}
+
+@keyframes transitioncj {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#cjlanguageProgress::before {
+  width: 90%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitioncj 1s;
+  position: absolute;
+}
+
+@keyframes transitionc {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+#clanguageProgress::before {
+  width: 60%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionc 1s;
+  position: absolute;
+}
+
+@keyframes transitionhtml {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#htmllanguageProgress::before {
+  width: 90%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionhtml 1s;
+  position: absolute;
+}
+
+@keyframes transitioncss {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+#csslanguageProgress::before {
+  width: 60%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitioncss 1s;
+  position: absolute;
+}
