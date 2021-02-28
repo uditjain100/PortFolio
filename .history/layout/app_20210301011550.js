@@ -1,21 +1,23 @@
 // *********************** Common Section
 
-// import CanvasNest from "canvas-nest.js";
+import CanvasNest from "canvas-nest.js";
 
-// const config = {
-//   color: "00,30,49",
-//   count: 188,
-// };
+const config = {
+  color: "00,30,49",
+  count: 188,
+};
 
-// const body = document.querySelector("body");
+const body = document.querySelector("body");
 
-// const cn = new CanvasNest(body, config);
+const cn = new CanvasNest(body, config);
 
 // *********************** About Section
 
 const intro = document.querySelector("#intro");
 const education = document.querySelector("#education");
 const activities = document.querySelector("#activities");
+
+console.log(intro);
 
 const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");

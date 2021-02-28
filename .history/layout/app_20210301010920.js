@@ -1,17 +1,17 @@
-// *********************** Common Section
+import CanvasNest from "canvas-nest.js";
 
-// import CanvasNest from "canvas-nest.js";
+// const CanvasNest = require("canvas-nest.js");
 
-// const config = {
-//   color: "00,30,49",
-//   count: 188,
-// };
+const config = {
+  color: "00,30,49",
+  count: 188,
+};
 
-// const body = document.querySelector("body");
+const body = document.querySelector("body");
 
-// const cn = new CanvasNest(body, config);
+const cn = new CanvasNest(body, config);
 
-// *********************** About Section
+// ** About Section
 
 const intro = document.querySelector("#intro");
 const education = document.querySelector("#education");
@@ -21,24 +21,24 @@ const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");
 const activitiesBasket = document.querySelector("#activitiesBasket");
 
-const removeDisplayAbout = () => {
+const removeDisplay = () => {
   introBasket.style.display = "none";
   educationBasket.style.display = "none";
   activitiesBasket.style.display = "none";
 };
 
 intro.addEventListener("click", () => {
-  removeDisplayAbout();
+  removeDisplay();
   introBasket.style.display = "block";
 });
 
 education.addEventListener("click", () => {
-  removeDisplayAbout();
+  removeDisplay();
   educationBasket.style.display = "block";
 });
 
 activities.addEventListener("click", () => {
-  removeDisplayAbout();
+  removeDisplay();
   activitiesBasket.style.display = "block";
 });
 

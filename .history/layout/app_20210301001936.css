@@ -1,0 +1,28 @@
+/* * Common Section */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+html {
+  animation: transitionIn 1s;
+}
+
+/* * Common Section */
+
+.footer {
+  position: -webkit-sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+}

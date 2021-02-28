@@ -17,6 +17,9 @@ const intro = document.querySelector("#intro");
 const education = document.querySelector("#education");
 const activities = document.querySelector("#activities");
 
+console.log("heeeeeyyyyyyyyyy");
+console.log(intro);
+
 const introBasket = document.querySelector("#introBasket");
 const educationBasket = document.querySelector("#educationBasket");
 const activitiesBasket = document.querySelector("#activitiesBasket");
