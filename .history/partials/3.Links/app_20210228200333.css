@@ -1,0 +1,148 @@
+#links-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+#links-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#links-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#linksHeadings {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#linksHeadings div {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  min-width: 150px;
+}
+
+#techHeading {
+  border-right: 1px black solid;
+}
+
+#socialHeading {
+  border-left: 1px black solid;
+}
+
+#linksHeadings div:hover {
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  transition: 0.5s;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#techBasket {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#socialBasket {
+  width: 100%;
+  margin-top: 50px;
+  display: none;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+#techBasketData {
+  width: 95vw;
+  height: 100%;
+  margin-bottom: 20px;
+  animation: transitionIn 1s;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#socialBasketData {
+  width: 95vw;
+  height: 100%;
+  margin-bottom: 20px;
+  animation: transitionIn 1s;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#techBasketData a,
+#socialBasketData a {
+  margin: 10px;
+  min-width: 250px;
+  text-decoration: none;
+  transition: 1s;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  border-radius: 10%;
+  font-family: "Montserrat";
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#techBasketData a:hover,
+#socialBasketData a:hover {
+  text-decoration: underline;
+  margin-bottom: 1.2rem;
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 10%;
+}
+
+#techBasketData a div h5,
+#socialBasketData a div h5 {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+#techBasketData a img,
+#socialBasketData a img {
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+}

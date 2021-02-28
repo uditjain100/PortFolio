@@ -1,0 +1,457 @@
+#skills-heading {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#skills-subheading {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#skills-subheading-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+#skillsdetails {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#skillsdetails div {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  min-width: 150px;
+}
+
+#ides,
+#dbs {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+#skillsdetails div:hover {
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  transition: 0.1s;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#skillsdetailsBody {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+#languagesBasket {
+  animation: transitionIn 1s;
+}
+
+#androidTitle,
+#cpTitle,
+#webTitle,
+#otherTitle {
+  font-family: "Montserrat";
+}
+
+#androidlanguages,
+#cplanguages,
+#weblanguages,
+#otherlanguages {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#languageDetails {
+  min-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Quicksand";
+}
+
+#kotlinlanguageProgress,
+#javalanguageProgress,
+#xmllanguageProgress,
+#cjlanguageProgress,
+#clanguageProgress,
+#htmllanguageProgress,
+#csslanguageProgress,
+#javascriptlanguageProgress,
+#reactlanguageProgress,
+#pythonlanguageProgress,
+#sqllanguageProgress {
+  width: 100%;
+  background-color: lightgray;
+  height: 8px;
+  position: relative;
+}
+
+@keyframes transitionkotlin {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+#kotlinlanguageProgress::before {
+  width: 80%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionkotlin 1s;
+  position: absolute;
+}
+
+@keyframes transitionjava {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%;
+  }
+}
+
+#javalanguageProgress::before {
+  width: 55%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionjava 1s;
+  position: absolute;
+}
+
+@keyframes transitionxml {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+#xmllanguageProgress::before {
+  width: 85%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionxml 1s;
+  position: absolute;
+}
+
+@keyframes transitioncj {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#cjlanguageProgress::before {
+  width: 90%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitioncj 1s;
+  position: absolute;
+}
+
+@keyframes transitionc {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+#clanguageProgress::before {
+  width: 60%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionc 1s;
+  position: absolute;
+}
+
+@keyframes transitionhtml {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+#htmllanguageProgress::before {
+  width: 90%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionhtml 1s;
+  position: absolute;
+}
+
+@keyframes transitioncss {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+#csslanguageProgress::before {
+  width: 85%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitioncss 1s;
+  position: absolute;
+}
+
+@keyframes transitionjavascript {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+#javascriptlanguageProgress::before {
+  width: 95%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionjavascript 1s;
+  position: absolute;
+}
+
+@keyframes transitionreact {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 25%;
+  }
+}
+
+#reactlanguageProgress::before {
+  width: 25%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionreact 1s;
+  position: absolute;
+}
+
+@keyframes transitionpython {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+#pythonlanguageProgress::before {
+  width: 40%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionpython 1s;
+  position: absolute;
+}
+
+@keyframes transitionsql {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+#sqllanguageProgress::before {
+  width: 80%;
+  background-color: crimson;
+  height: 8px;
+  left: 0;
+  top: 0;
+  content: "";
+  animation: transitionsql 1s;
+  position: absolute;
+}
+
+#idesBasket {
+  display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: transitionIn 1s;
+}
+
+#allidesDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#idesdetails {
+  margin: 10px;
+  min-width: 400px;
+
+  background-color: lightgray;
+  border: 1px black solid;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#uses {
+  margin: 10px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  border: 1px black solid;
+}
+
+#idesData {
+  min-width: 400px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ideimage,
+#idename {
+  font-family: "Nunito";
+  margin: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#ideimage img {
+  height: 80px;
+  width: 80px;
+}
+
+#webdbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#dbsdetails {
+  margin: 10px;
+  min-width: 400px;
+
+  background-color: lightgray;
+  border: 1px black solid;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#dbsData {
+  min-width: 400px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#dbimage,
+#dbname {
+  font-family: "Nunito";
+  margin: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#dbimage img {
+  height: 80px;
+  width: 80px;
+}
