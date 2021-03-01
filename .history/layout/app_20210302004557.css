@@ -15,6 +15,10 @@ html {
   animation: transitionIn 1s;
 }
 
+.section {
+  margin-top: px;
+}
+
 /* * Navbar Section */
 
 #navtitle {
@@ -64,6 +68,7 @@ html {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
+  margin-top: 130px;
 }
 
 #about-subheading {

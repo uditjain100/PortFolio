@@ -63,7 +63,7 @@ const idesBasket = document.querySelector("#idesBasket");
 const dbsBasket = document.querySelector("#dbsBasket");
 const otherBasket = document.querySelector("#otherBasket");
 
-const removeDisplaySkills = () => {
+const removeDisplay = () => {
   languagesBasket.style.display = "none";
   idesBasket.style.display = "none";
   dbsBasket.style.display = "none";
@@ -71,22 +71,22 @@ const removeDisplaySkills = () => {
 };
 
 languages.addEventListener("click", () => {
-  removeDisplaySkills();
+  removeDisplay();
   languagesBasket.style.display = "block";
 });
 
 ides.addEventListener("click", () => {
-  removeDisplaySkills();
+  removeDisplay();
   idesBasket.style.display = "block";
 });
 
 dbs.addEventListener("click", () => {
-  removeDisplaySkills();
+  removeDisplay();
   dbsBasket.style.display = "block";
 });
 
 other.addEventListener("click", () => {
-  removeDisplaySkills();
+  removeDisplay();
   otherBasket.style.display = "block";
 });
 
@@ -98,18 +98,18 @@ const social = document.querySelector("#socialHeading");
 const techBasket = document.querySelector("#techBasket");
 const socialBasket = document.querySelector("#socialBasket");
 
-const removeDisplayLinks = () => {
+const removeDisplay = () => {
   techBasket.style.display = "none";
   socialBasket.style.display = "none";
 };
 
 tech.addEventListener("click", () => {
-  removeDisplayLinks();
+  removeDisplay();
   techBasket.style.display = "block";
 });
 
 social.addEventListener("click", () => {
-  removeDisplayLinks();
+  removeDisplay();
   socialBasket.style.display = "block";
 });
 
