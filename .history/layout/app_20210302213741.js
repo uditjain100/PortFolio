@@ -2,15 +2,8 @@
 
 $(function () {
   $(document).scroll(function () {
-    var $nav = $("#navbar");
+    var $nav = $(".navbar-fixed-top");
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
-});
-
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $("#scrollbtn");
-    $nav.toggleClass("see", $(this).scrollTop() > $nav.height());
   });
 });
 

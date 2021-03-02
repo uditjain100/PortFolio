@@ -13,33 +13,13 @@
 
 html {
   animation: transitionIn 1s;
-  scroll-behavior: smooth;
 }
 
 p {
   font-family: "Poppins";
 }
 
-#scrollbtn {
-  display: none;
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  cursor: pointer;
-  border-radius: 20%;
-}
-
-#scrollbtn.see {
-  display: block;
-  transition: transitionscroll 200ms;
-}
-
 /* **************************************** Nav Section */
-
-#navbar.scrolled {
-  background-color: black !important;
-  transition: background-color 200ms linear;
-}
 
 #navtitle {
   font-family: "Montserrat";
@@ -129,7 +109,7 @@ p {
   min-width: 500px;
   color: white;
   display: flex;
-  border-left: 1px greenyellow solid;
+  border-left: 1px white solid;
   flex-direction: column;
   flex-wrap: wrap;
   padding-top: 40px;
@@ -154,13 +134,13 @@ p {
   border-radius: 10%;
 }
 
-/* ********************************* About Section */
+/* * About Section */
 
 #about-heading {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 #about-subheading {
@@ -371,13 +351,13 @@ p {
   box-shadow: 2px 2px 2px 2px;
 }
 
-/* ******************************** Services Section */
+/* * Services Section */
 
 #services-heading {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 #services-subheading {
@@ -432,13 +412,13 @@ p {
   font-size: 28px;
 }
 
-/* ************************************* Skills Section */
+/* * Skills Section */
 
 #skills-heading {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 #skills-subheading {
@@ -937,7 +917,7 @@ p {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 #links-subheading {
@@ -1071,13 +1051,13 @@ p {
   height: 70px;
 }
 
-/* ***************************** Contact Section */
+/* * Contact Section */
 
 #contact-heading {
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 
 #contact-subheading {

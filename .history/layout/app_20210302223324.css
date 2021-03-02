@@ -21,7 +21,7 @@ p {
 }
 
 #scrollbtn {
-  display: none;
+  opacity: 0;
   position: fixed;
   right: 30px;
   bottom: 30px;
@@ -29,9 +29,17 @@ p {
   border-radius: 20%;
 }
 
+@keyframes transitionscroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #scrollbtn.see {
-  display: block;
-  transition: transitionscroll 200ms;
+  transition: transitionscroll 1s;
 }
 
 /* **************************************** Nav Section */

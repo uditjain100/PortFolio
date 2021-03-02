@@ -13,33 +13,13 @@
 
 html {
   animation: transitionIn 1s;
-  scroll-behavior: smooth;
 }
 
 p {
   font-family: "Poppins";
 }
 
-#scrollbtn {
-  display: none;
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  cursor: pointer;
-  border-radius: 20%;
-}
-
-#scrollbtn.see {
-  display: block;
-  transition: transitionscroll 200ms;
-}
-
 /* **************************************** Nav Section */
-
-#navbar.scrolled {
-  background-color: black !important;
-  transition: background-color 200ms linear;
-}
 
 #navtitle {
   font-family: "Montserrat";
@@ -129,7 +109,7 @@ p {
   min-width: 500px;
   color: white;
   display: flex;
-  border-left: 1px greenyellow solid;
+  border-left: 1px red solid;
   flex-direction: column;
   flex-wrap: wrap;
   padding-top: 40px;

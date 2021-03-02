@@ -31,7 +31,6 @@ p {
 
 #scrollbtn.see {
   display: block;
-  transition: transitionscroll 200ms;
 }
 
 /* **************************************** Nav Section */

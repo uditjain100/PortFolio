@@ -21,17 +21,11 @@ p {
 }
 
 #scrollbtn {
-  display: none;
   position: fixed;
   right: 30px;
   bottom: 30px;
   cursor: pointer;
   border-radius: 20%;
-}
-
-#scrollbtn.see {
-  display: block;
-  transition: transitionscroll 200ms;
 }
 
 /* **************************************** Nav Section */

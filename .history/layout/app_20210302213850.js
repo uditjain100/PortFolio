@@ -7,13 +7,6 @@ $(function () {
   });
 });
 
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $("#scrollbtn");
-    $nav.toggleClass("see", $(this).scrollTop() > $nav.height());
-  });
-});
-
 // *********************** About Section
 
 const intro = document.querySelector("#intro");

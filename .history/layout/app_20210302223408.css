@@ -29,9 +29,17 @@ p {
   border-radius: 20%;
 }
 
+@keyframes transitionscroll {
+  from {
+    display: none;
+  }
+  to {
+    display: block;
+  }
+}
+
 #scrollbtn.see {
-  display: block;
-  transition: transitionscroll 200ms;
+  transition: transitionscroll 1s;
 }
 
 /* **************************************** Nav Section */
