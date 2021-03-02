@@ -11,6 +11,14 @@
 
 // const cn = new CanvasNest(body, config);
 
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if (this.scrollY > 20) {
+      $("nav").addClass("sticky");
+    }
+  });
+});
+
 // *********************** About Section
 
 const intro = document.querySelector("#intro");

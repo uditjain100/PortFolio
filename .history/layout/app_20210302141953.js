@@ -11,6 +11,10 @@
 
 // const cn = new CanvasNest(body, config);
 
+// body.addEventListener("scroll", () => {
+//   console.log("Heeeeeeeeyyyyyyyyyyyyyyyyyy");
+// });
+
 // *********************** About Section
 
 const intro = document.querySelector("#intro");

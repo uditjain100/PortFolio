@@ -11,6 +11,19 @@
 
 // const cn = new CanvasNest(body, config);
 
+const body = document.querySelector("body");
+const header = document.querySelector("header");
+
+body.onscroll = () => {
+  console.log("Heeeeeeeeyyyyyyyyyyyyyyyyyy");
+  header.style.backgroundColor = "rgb(255,0,0)";
+  console.log(header.style.backgroundColor);
+};
+
+// body.addEventListener("scroll", () => {
+//   console.log("Heeeeeeeeyyyyyyyyyyyyyyyyyy");
+// });
+
 // *********************** About Section
 
 const intro = document.querySelector("#intro");

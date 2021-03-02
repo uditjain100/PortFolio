@@ -25,8 +25,6 @@ p {
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: 300;
-  color: white;
-  border: 2px white solid;
   margin-left: 30px;
 }
 
@@ -51,7 +49,7 @@ p {
 }
 
 #navlist li a {
-  color: white;
+  color: crimson;
 }
 
 #navlist li:hover {
@@ -840,11 +838,7 @@ p {
   font-size: 25px;
 }
 
-/* * ************************************* Links Section */
-
-#links-section {
-  width: 97vw;
-}
+/* * Links Section */
 
 #links-heading {
   font-family: "Montserrat";

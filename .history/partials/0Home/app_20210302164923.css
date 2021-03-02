@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background-color: #003049;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
