@@ -1,0 +1,65 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+html {
+  animation: transitionIn 1s;
+}
+
+#home-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("1.jpg");
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#homeBox {
+  width: 98vw;
+}
+
+@keyframes transitionHome {
+  from {
+    margin-top: -70vh;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+#homeboxdetailsleft {
+  /* background-col or: white; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  padding-left: 180px;
+}
+
+#homeboxdetailsright {
+  animation: transitionHome 2s;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeprofileimg {
+  width: 350px;
+  height: 350px;
+  box-shadow: 25px black;
+  border-radius: 10%;
+}

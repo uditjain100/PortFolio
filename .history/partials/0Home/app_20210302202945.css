@@ -1,0 +1,138 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateY(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+html {
+  animation: transitionIn 1s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.particles-js {
+  height: 100%;
+  background-color: red;
+}
+
+/* **************************************** Nav Section */
+
+#navtitle {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 900;
+  margin-left: 30px;
+}
+
+#navlist li {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.1s;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#navlist li img {
+  width: 30px;
+  display: none;
+  height: 30px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+#navlist li a {
+  color: white;
+}
+
+#navlist li:hover {
+  font-weight: 500;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-bottom: 2px white solid;
+}
+
+@media (max-width: 993px) {
+  #navlist li img {
+    display: flex;
+    background-color: grey;
+  }
+}
+
+/* **************************************** Home Section */
+
+#home-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 995px;) {
+  #homeboxdetailsleft {
+    margin-top: 500px;
+  }
+}
+
+#homeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes transitionHome {
+  from {
+    margin-top: -70vh;
+  }
+
+  to {
+    margin-top: 13vh;
+  }
+}
+
+#homeboxdetailsleft {
+  margin-top: 430px;
+  margin-bottom: 10px;
+  min-width: 400px;
+  color: white;
+  display: flex;
+  border-left: 1px white solid;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+#homeboxdetailsright {
+  margin-bottom: 10px;
+  min-width: 400px;
+  animation: transitionHome 1s;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeprofileimg {
+  width: 350px;
+  height: 350px;
+  box-shadow: 25px black;
+  border-radius: 10%;
+}
