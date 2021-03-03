@@ -1123,13 +1123,6 @@ p {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
-  transition: 0.5s;
-}
-#phoneDetails:hover,
-#addressDetails:hover,
-#emailDetails:hover {
-  background-color: gray;
-  color: white;
 }
 
 #phoneDetails img,
@@ -1187,9 +1180,6 @@ p {
   box-shadow: 2px 2px 2px 2px gray;
 }
 
-#messageBody textarea {
-  border-radius: 10%;
-}
 /* * Common Section */
 
 .footer {

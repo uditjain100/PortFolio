@@ -1130,6 +1130,7 @@ p {
 #emailDetails:hover {
   background-color: gray;
   color: white;
+  margin-top: 0.8rem;
 }
 
 #phoneDetails img,

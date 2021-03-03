@@ -937,8 +937,6 @@ p {
 
 #links-section {
   width: 97vw;
-  background-color: darkblue;
-  color: white;
 }
 
 #links-heading {
@@ -1106,15 +1104,17 @@ p {
 }
 
 #contact-section {
-  background-color: lightgray;
+  background-color: #003049;
+  color: white;
 }
 
 #phoneDetails,
 #addressDetails,
 #emailDetails {
-  background-color: lightgray;
+  background-color: white;
+  color: white;
   min-width: 300px;
-  box-shadow: 2px 2px 2px 2px black;
+  border: 3px white solid;
   border-radius: 5%;
   height: 25vh;
   display: flex;
@@ -1123,20 +1123,13 @@ p {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
-  transition: 0.5s;
-}
-#phoneDetails:hover,
-#addressDetails:hover,
-#emailDetails:hover {
-  background-color: gray;
-  color: white;
 }
 
 #phoneDetails img,
 #addressDetails img,
 #emailDetails img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 15px;
 }
 
@@ -1181,15 +1174,6 @@ p {
   font-weight: 600;
 }
 
-#field1 input,
-#messageBody textarea {
-  border: none;
-  box-shadow: 2px 2px 2px 2px gray;
-}
-
-#messageBody textarea {
-  border-radius: 10%;
-}
 /* * Common Section */
 
 .footer {

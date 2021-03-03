@@ -209,7 +209,7 @@
         <div id="introBasket" class="introBasket">
           <div id="introBasketData" class="container">
             <div id="introDetails" class="row">
-              <div id="introDetailsLeft" class="card col-4 my-5 ml-auto">
+              <div id="introDetailsLeft" class="card col-4">
                 <img
                   id="aboutProfileImage"
                   src="./images/profile.jpg"
@@ -1267,26 +1267,17 @@
 
         <div id="contactdetails" class="row">
           <div id="phoneDetails" class="col-3">
-            <img
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/android.svg"
-              alt=""
-            />
+            <img src="./images/phone.png" alt="" />
             <h5 class="display-8" id="phoneheading">PHONE</h5>
             <h6 class="display-8" id="phoneData">+919205508109</h6>
           </div>
           <div id="emailDetails" class="col-3">
-            <img
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg"
-              alt=""
-            />
+            <img src="./images/email.png" alt="" />
             <h5 class="display-8" id="phoneheading">EMAIL</h5>
             <h6 class="display-8" id="phoneData">jain30udit@gmail.com</h6>
           </div>
           <div id="addressDetails" class="col-3">
-            <img
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/googlemaps.svg"
-              alt=""
-            />
+            <img src="./images/address.jpg" alt="" />
             <h5 class="display-8" id="phoneheading">ADDRESS</h5>
             <h6 class="display-8" id="phoneData">Baghpat, Uttap Pradesh</h6>
           </div>
@@ -1309,8 +1300,14 @@
             <div id="messageDetails" class="col-5">
               <div id="field1">
                 <label for="title">Name</label>
-                <input type="text" id="title" class="form-control rounded-pill
-                placeholder="name" name="name" required />
+                <input
+                  type="text"
+                  id="title"
+                  class="form-control border border-success"
+                  placeholder="name"
+                  name="name"
+                  required
+                />
                 <div class="valid-feedback">&#10004; Looks Good</div>
               </div>
               <div id="field1">
@@ -1318,7 +1315,7 @@
                 <input
                   type="email"
                   id="email"
-                  class="form-control rounded-pill"
+                  class="form-control border border-success"
                   placeholder="email"
                   name="email"
                   required
@@ -1330,7 +1327,7 @@
                 <input
                   type="number"
                   id="phone"
-                  class="form-control rounded-pill"
+                  class="form-control border border-success"
                   placeholder="phone"
                   name="phone"
                   required
@@ -1342,7 +1339,7 @@
                 <input
                   type="text"
                   id="subject"
-                  class="form-control rounded-pill"
+                  class="form-control border border-success"
                   placeholder="subject"
                   name="subject"
                   required
@@ -1356,14 +1353,14 @@
               <textarea
                 name="message"
                 placeholder="message"
-                class="form-control p-3"
+                class="form-control border border-success"
                 id="message"
                 rows="7"
                 required
               ></textarea>
               <div class="valid-feedback">&#10004; Looks Good</div>
 
-              <button type="submit" class="btn btn-primary my-3 rounded-pill">
+              <button type="submit" class="btn btn-success rounded-pill">
                 Send
               </button>
             </div>
@@ -1372,7 +1369,7 @@
       </div>
     </section>
 
-    <footer class="footer bg-dark py-4">
+    <footer class="footer bg-dark mt-5 py-4">
       <div class="container">
         <span class="" style="text-align: center"
           >Created by : UDIT JAIN | &copy; OTAKU</span

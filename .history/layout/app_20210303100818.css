@@ -27,18 +27,12 @@ p {
   bottom: 30px;
   cursor: pointer;
   border-radius: 20%;
-  background-color: aquamarine;
+  background-color: yellow;
 }
 
 #scrollbtn.see {
   display: block;
   transition: transitionscroll 200ms;
-}
-
-#bars {
-  width: 90px;
-  height: 5px;
-  background-color: black;
 }
 
 /* **************************************** Nav Section */
@@ -133,7 +127,7 @@ p {
 
 #homeboxdetailsleft {
   margin-bottom: 10px;
-  min-width: 320px;
+  min-width: 500px;
   color: white;
   display: flex;
   border-left: 1px greenyellow solid;
@@ -183,6 +177,12 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
 }
 
 #aboutdetails {
@@ -235,7 +235,7 @@ p {
 }
 
 #introBasketData {
-  width: 90vw;
+  width: 98vw;
   height: 100%;
   margin-bottom: 20px;
   animation: transitionIn 1s;
@@ -271,7 +271,7 @@ p {
 }
 
 #highschoolDetails {
-  margin-bottom: 100px;
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -284,7 +284,7 @@ p {
 }
 
 #graduationDetails {
-  margin-top: 70px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -307,7 +307,7 @@ p {
 #highschoolLeft,
 #IntermediateLeft,
 #graduationLeft {
-  min-width: 320px;
+  min-width: 300px;
   text-align: right;
   font-family: "Spartan";
   border-right: 1px black solid;
@@ -335,14 +335,24 @@ p {
 #highschoolRight,
 #IntermediateRight,
 #graduationRight {
-  min-width: 320px;
   text-align: left;
   font-family: "Spartan";
   border-left: 1px black solid;
 }
 
-#line-break-img {
-  width: 300px;
+#introDetailsLeft {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px black solid;
+}
+
+#introDetailsRight {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #highSchoolImage,
@@ -354,24 +364,9 @@ p {
   border-radius: 50%;
 }
 
-#introDetailsLeft {
-  min-width: 320px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px black solid;
-}
-
-#introDetailsRight {
-  min-width: 320px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #aboutProfileImage {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   border-radius: 2%;
   border: 1px white solid;
   box-shadow: 2px 2px 2px 2px;
@@ -401,6 +396,12 @@ p {
   font-family: "Roboto Slab";
 }
 
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
 #servicesdetails {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -414,7 +415,7 @@ p {
 
 #androiddetails,
 #webdetails {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 10px;
   margin-bottom: 50px;
   border: none;
@@ -454,6 +455,12 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
 }
 
 #skillsdetails {
@@ -518,7 +525,7 @@ p {
 }
 
 #languageDetails {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Quicksand";
@@ -778,7 +785,7 @@ p {
 
 #idesdetails {
   margin: 10px;
-  min-width: 320px;
+  min-width: 400px;
 
   background-color: lightgray;
   border: 1px black solid;
@@ -798,7 +805,7 @@ p {
 }
 
 #idesData {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 10px;
 
   display: flex;
@@ -812,7 +819,7 @@ p {
 #idename {
   font-family: "Nunito";
   margin: 10px;
-  min-width: 130px;
+  min-width: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -844,7 +851,7 @@ p {
 
 #dbsdetails {
   margin: 10px;
-  min-width: 320px;
+  min-width: 400px;
 
   background-color: lightgray;
   border: 1px black solid;
@@ -857,7 +864,7 @@ p {
 }
 
 #dbsData {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 10px;
 
   display: flex;
@@ -871,7 +878,7 @@ p {
 #dbname {
   font-family: "Nunito";
   margin: 10px;
-  min-width: 130px;
+  min-width: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -907,38 +914,24 @@ p {
 #versioncontrol div {
   padding-top: 10px;
   padding-bottom: 10px;
-  min-width: 160px;
-
+  min-width: 100px;
+  text-align: center;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#versioncontrol #questions {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 700;
-  text-decoration: underline;
-  font-family: "Montserrat";
-}
-
-#versioncontrol #answers {
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
-  font-family: "Montserrat";
-}
-
 #versioncontrol div ul li {
   background-color: lightgray;
+  font-family: "Montserrat";
+  font-size: 25px;
 }
 
 /* * ************************************* Links Section */
 
 #links-section {
   width: 97vw;
-  background-color: darkblue;
-  color: white;
 }
 
 #links-heading {
@@ -961,6 +954,12 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   font-family: "Roboto Slab";
+}
+
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
 }
 
 #linksHeadings {
@@ -1097,6 +1096,12 @@ p {
   font-family: "Roboto Slab";
 }
 
+#bars {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
 #contactdetails {
   margin-top: 50px;
   display: flex;
@@ -1105,16 +1110,11 @@ p {
   justify-content: space-evenly;
 }
 
-#contact-section {
-  background-color: lightgray;
-}
-
 #phoneDetails,
 #addressDetails,
 #emailDetails {
-  background-color: lightgray;
   min-width: 300px;
-  box-shadow: 2px 2px 2px 2px black;
+  border: 1px black solid;
   border-radius: 5%;
   height: 25vh;
   display: flex;
@@ -1123,20 +1123,13 @@ p {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
-  transition: 0.5s;
-}
-#phoneDetails:hover,
-#addressDetails:hover,
-#emailDetails:hover {
-  background-color: gray;
-  color: white;
 }
 
 #phoneDetails img,
 #addressDetails img,
 #emailDetails img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 15px;
 }
 
@@ -1155,8 +1148,14 @@ p {
   margin-right: 10px;
 }
 
+#msg-bars {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}
+
 #messageForm {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1181,15 +1180,6 @@ p {
   font-weight: 600;
 }
 
-#field1 input,
-#messageBody textarea {
-  border: none;
-  box-shadow: 2px 2px 2px 2px gray;
-}
-
-#messageBody textarea {
-  border-radius: 10%;
-}
 /* * Common Section */
 
 .footer {

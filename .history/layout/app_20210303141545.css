@@ -1125,12 +1125,6 @@ p {
   margin-bottom: 10px;
   transition: 0.5s;
 }
-#phoneDetails:hover,
-#addressDetails:hover,
-#emailDetails:hover {
-  background-color: gray;
-  color: white;
-}
 
 #phoneDetails img,
 #addressDetails img,

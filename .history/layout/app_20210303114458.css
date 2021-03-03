@@ -778,7 +778,7 @@ p {
 
 #idesdetails {
   margin: 10px;
-  min-width: 320px;
+  min-width: 400px;
 
   background-color: lightgray;
   border: 1px black solid;
@@ -798,7 +798,7 @@ p {
 }
 
 #idesData {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 10px;
 
   display: flex;
@@ -812,7 +812,7 @@ p {
 #idename {
   font-family: "Nunito";
   margin: 10px;
-  min-width: 130px;
+  min-width: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -844,7 +844,7 @@ p {
 
 #dbsdetails {
   margin: 10px;
-  min-width: 320px;
+  min-width: 400px;
 
   background-color: lightgray;
   border: 1px black solid;
@@ -857,7 +857,7 @@ p {
 }
 
 #dbsData {
-  min-width: 320px;
+  min-width: 400px;
   margin-top: 10px;
 
   display: flex;
@@ -871,7 +871,7 @@ p {
 #dbname {
   font-family: "Nunito";
   margin: 10px;
-  min-width: 130px;
+  min-width: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -922,9 +922,9 @@ p {
   font-family: "Montserrat";
 }
 
-#versioncontrol #answers {
+#versioncontrol #questions {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 400;
   font-family: "Montserrat";
 }
@@ -937,8 +937,6 @@ p {
 
 #links-section {
   width: 97vw;
-  background-color: darkblue;
-  color: white;
 }
 
 #links-heading {
@@ -1105,16 +1103,11 @@ p {
   justify-content: space-evenly;
 }
 
-#contact-section {
-  background-color: lightgray;
-}
-
 #phoneDetails,
 #addressDetails,
 #emailDetails {
-  background-color: lightgray;
   min-width: 300px;
-  box-shadow: 2px 2px 2px 2px black;
+  border: 1px black solid;
   border-radius: 5%;
   height: 25vh;
   display: flex;
@@ -1123,20 +1116,13 @@ p {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
-  transition: 0.5s;
-}
-#phoneDetails:hover,
-#addressDetails:hover,
-#emailDetails:hover {
-  background-color: gray;
-  color: white;
 }
 
 #phoneDetails img,
 #addressDetails img,
 #emailDetails img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 15px;
 }
 
@@ -1156,7 +1142,7 @@ p {
 }
 
 #messageForm {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1181,15 +1167,6 @@ p {
   font-weight: 600;
 }
 
-#field1 input,
-#messageBody textarea {
-  border: none;
-  box-shadow: 2px 2px 2px 2px gray;
-}
-
-#messageBody textarea {
-  border-radius: 10%;
-}
 /* * Common Section */
 
 .footer {
