@@ -143,44 +143,23 @@ social.addEventListener("click", () => {
   });
 })();
 
-const msgForm = document.querySelector("#submitform");
-const msgBtn = document.querySelector("#msgsendbtn");
-
 const name = document.querySelector("#name");
 const mail = document.querySelector("#email");
 const phone = document.querySelector("#phone");
 const message = document.querySelector("#message");
 const subject = document.querySelector("#subject");
 
-const myemail = "jain30usit@gmail.com";
-
-const sendEmail = () => {
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: myemail,
-    Password: "cfcbczdvdvxlalst",
-    To: myemail,
-    From: mail.value,
-    Subject: subject.value,
-    Body: message.value + "  :  " + phone.value + "    by    " + name.value,
-  }).then((msg) => {
-    alert("Message sent Successfully 😀");
+$(document).ready(function () {
+  $("#msgsendbtn").click(function () {
+    $("#submitform").attr(
+      "action",
+      "mailto:jain30udit@gmail.com?subject=" +
+        $("#subject").val() +
+        "&body=" +
+        $("#message").val() +
+        $("#email").val() +
+        $("#phone").val()
+    );
+    $("#submitform").submit();
   });
-};
-
-msgBtn.addEventListener("click", sendEmail());
-
-// $(document).ready(function () {
-//   $("#msgsendbtn").click(function () {
-//     $("#submitform").attr(
-//       "action",
-//       "mailto:jain30udit@gmail.com?subject=" +
-//         $("#subject").val() +
-//         "&body=" +
-//         $("#message").val() +
-//         $("#email").val() +
-//         $("#phone").val()
-//     );
-//     $("#submitform").submit();
-//   });
-// });
+});

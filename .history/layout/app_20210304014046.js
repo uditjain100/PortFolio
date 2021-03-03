@@ -162,7 +162,7 @@ const sendEmail = () => {
     To: myemail,
     From: mail.value,
     Subject: subject.value,
-    Body: message.value + "  :  " + phone.value + "    by    " + name.value,
+    Body: message.value + "  :  " + phone.value,
   }).then((msg) => {
     alert("Message sent Successfully 😀");
   });

@@ -154,21 +154,18 @@ const subject = document.querySelector("#subject");
 
 const myemail = "jain30usit@gmail.com";
 
-const sendEmail = () => {
-  Email.send({
+const sendEmail = (email) => {
+  email.send({
     Host: "smtp.gmail.com",
     Username: myemail,
     Password: "cfcbczdvdvxlalst",
     To: myemail,
     From: mail.value,
     Subject: subject.value,
-    Body: message.value + "  :  " + phone.value + "    by    " + name.value,
-  }).then((msg) => {
-    alert("Message sent Successfully 😀");
   });
 };
 
-msgBtn.addEventListener("click", sendEmail());
+msgBtn.addEventListener("click", () => {});
 
 // $(document).ready(function () {
 //   $("#msgsendbtn").click(function () {
