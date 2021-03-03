@@ -563,9 +563,7 @@ p {
 #cpTitle,
 #webTitle,
 #otherTitle {
-  text-align: center;
-  text-decoration: underline;
-  font-family: "Oswald";
+  font-family: "Montserrat";
 }
 
 #androidlanguages,
@@ -909,12 +907,6 @@ p {
   align-items: center;
 }
 
-#webTitle,
-#androidTitle {
-  text-decoration: underline;
-  font-family: "Oswald";
-}
-
 #dbsdetails {
   margin: 10px;
   min-width: 320px;
@@ -973,6 +965,7 @@ p {
 }
 
 #otherdetails:hover {
+  background-color: blue;
   transform: scale(1.05);
 }
 
@@ -988,15 +981,14 @@ p {
 
 #otherdetails #questions {
   text-align: center;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-weight: 700;
   font-family: "Montserrat";
 }
 
 #otherdetails #answers li {
   background-color: dodgerblue;
   text-align: center;
+  font-size: 25px;
   font-weight: 400;
   font-family: "Montserrat";
 }

@@ -46,10 +46,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
@@ -535,8 +531,8 @@
         <div id="languagesBasket" class="container">
           <div id="weblanguagesBox">
             <h5 id="webTitle" class="display-6 text-center">
-              <span class="rounded-pill py-1"
-                >Full Stack Web ( MERN ) Development
+              <span class="rounded-pill px-5 py-1"
+                >Full Stack Web Development ( MERN )
               </span>
             </h5>
 
@@ -605,7 +601,7 @@
 
           <div id="androidlanguagesBox">
             <h5 id="androidTitle" class="display-6 text-center">
-              <span class="rounded-pill py-1"
+              <span class="rounded-pill px-5 py-1"
                 >Android Application Development
               </span>
             </h5>
@@ -660,7 +656,9 @@
 
           <div id="cplanguagesBox">
             <h5 id="cpTitle" class="display-6 text-center">
-              <span class="rounded-pill py-1">Competitive Programming </span>
+              <span class="rounded-pill px-5 py-1"
+                >Competitive Programming
+              </span>
             </h5>
             <div id="cplanguages" class="row">
               <div id="languageDetails" class="d-grid col-5">
@@ -735,37 +733,67 @@
 
         <div id="idesBasket" class="container">
           <div id="allidesDetails" class="row">
-            <div id="idesdetails" class="col-5">
-              <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/visualstudiocode.svg"
-                alt="VSCODE"
-              />
-              <h5 class="display-8">VISUAL STUDIO CODE</h5>
-              <ul id="uses" class="list-group list-group-flush rounded-pill">
+            <div id="idesdetails" class="d-grid col-5">
+              <div id="idesData">
+                <div id="ideimage" class="col-3">
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/visualstudiocode.svg"
+                    alt="VSCODE"
+                  />
+                </div>
+                <div id="idename" class="col-7">
+                  <h5 class="display-8">VISUAL STUDIO CODE</h5>
+                </div>
+              </div>
+              <ul
+                id="uses"
+                class="list-group list-group-flush rounded-pill"
+                style="text-align: center"
+              >
                 <li class="list-group-item">Competitive Programming</li>
                 <li class="list-group-item">Full Stack Web Development</li>
               </ul>
             </div>
 
-            <div id="idesdetails" class="col-5">
-              <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/eclipseide.svg"
-                alt="eclipseide"
-              />
-              <h5 class="display-8">ECLIPSE IDE</h5>
-              <ul id="uses" class="list-group list-group-flush rounded-pill">
+            <div id="idesdetails" class="d-grid col-5">
+              <div id="idesData">
+                <div id="ideimage" class="col-3">
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/eclipseide.svg"
+                    alt="eclipseide"
+                  />
+                </div>
+                <div id="idename" class="col-7">
+                  <h5 class="display-8">ECLIPSE IDE</h5>
+                </div>
+              </div>
+              <ul
+                id="uses"
+                class="list-group list-group-flush rounded-pill"
+                style="text-align: center"
+              >
                 <li class="list-group-item">Competitive Programming</li>
                 <li class="list-group-item">Backend Development</li>
               </ul>
             </div>
 
-            <div id="idesdetails" class="col-5">
-              <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/androidstudio.svg"
-                alt="androidstudio"
-              />
-              <h5 class="display-8">ANDROID STUDIO</h5>
-              <ul id="uses" class="list-group list-group-flush rounded-pill">
+            <div id="idesdetails" class="d-grid col-5">
+              <div id="idesData">
+                <div id="ideimage" class="col-3">
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/androidstudio.svg"
+                    alt="androidstudio"
+                  />
+                </div>
+                <div id="idename" class="col-7">
+                  <h5 class="display-8">ANDROID STUDIO</h5>
+                </div>
+              </div>
+              <ul
+                id="uses"
+                class="list-group list-group-flush rounded-pill"
+                style="text-align: center"
+              >
                 <li class="list-group-item">Android Application Development</li>
               </ul>
             </div>
@@ -775,8 +803,8 @@
         <div id="dbsBasket" class="container">
           <div id="webdbsBox">
             <h5 id="webTitle" class="display-6 text-center">
-              <span class="rounded-pill py-1"
-                >Full Stack Web ( MERN ) Development
+              <span class="rounded-pill px-5 py-1"
+                >Full Stack Web Development ( MERN )
               </span>
             </h5>
 
@@ -807,13 +835,13 @@
 
           <div id="androiddbsBox">
             <h5 id="androidTitle" class="display-6 text-center">
-              <span class="rounded-pill py-1"
+              <span class="rounded-pill px-5 py-1"
                 >Android Application Development
               </span>
             </h5>
 
             <div id="androiddbs" class="row">
-              <div id="dbsdetails" class="col-5 rounded-pill">
+              <div id="dbsdetails" class="d-grid col-5 rounded-pill">
                 <img
                   src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/firebase.svg"
                   alt="firebase"
@@ -821,7 +849,7 @@
                 <h5 class="display-8">FIREBASE DATABASE</h5>
               </div>
 
-              <div id="dbsdetails" class="col-5 rounded-pill">
+              <div id="dbsdetails" class="d-grid col-5 rounded-pill">
                 <img
                   src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mysql.svg"
                   alt="mongodb"
@@ -830,7 +858,7 @@
                 <h5 class="display-8">MYSQL</h5>
               </div>
 
-              <div id="dbsdetails" class="col-5 rounded-pill">
+              <div id="dbsdetails" class="d-grid col-5 rounded-pill">
                 <img src="./images/room.png" alt="mongoose" />
                 <h5 class="display-8">ROOM PERSISTENCE LIBRARY</h5>
               </div>
@@ -839,36 +867,52 @@
         </div>
 
         <div id="otherBasket" class="container">
-          <div id="otherdetails" class="row">
-            <h4 id="questions" class="display-8 col-6">VERSION CONTROL</h4>
-            <ul id="answers" class="list-group list-group-flush col-6">
-              <li class="list-group-item">⦿ GIT</li>
-            </ul>
+          <div id="versioncontrol" class="row">
+            <div id="questions" class="col-6">
+              <h4 class="display-8">VERSION CONTROL</h4>
+            </div>
+            <div class="col-6">
+              <ul id="answers" class="list-group list-group-flush">
+                <li class="list-group-item">⦿ GIT</li>
+              </ul>
+            </div>
           </div>
 
-          <div id="otherdetails" class="row">
-            <h4 id="questions" class="display-8 col-6">FRAMEWORK</h4>
-            <ul id="answers" class="list-group list-group-flush col-6">
-              <li class="list-group-item">⦿ EXPRESS</li>
-            </ul>
+          <div id="versioncontrol" class="row">
+            <div id="questions" class="col-6">
+              <h4 class="display-8">FRAMEWORK</h4>
+            </div>
+            <div id="answersright" class="col-6">
+              <ul id="answers" class="list-group list-group-flush">
+                <li class="list-group-item">⦿ EXPRESS</li>
+              </ul>
+            </div>
           </div>
 
-          <div id="otherdetails" class="row">
-            <h4 id="questions" class="display-8 col-6">OPERATING SYSTEM</h4>
-            <ul id="answers" class="list-group list-group-flush col-6">
-              <li class="list-group-item">⦿ WINDOWS 10</li>
-            </ul>
+          <div id="versioncontrol" class="row">
+            <div id="questions" class="col-6">
+              <h4 class="display-8">OPERATING SYSTEM</h4>
+            </div>
+            <div class="col-6">
+              <ul id="answers" class="list-group list-group-flush">
+                <li class="list-group-item">⦿ WINDOWS 10</li>
+              </ul>
+            </div>
           </div>
 
-          <div id="otherdetails" class="row">
-            <h4 id="questions" class="display-8 col-6">IT SKILLS</h4>
-            <ul id="answers" class="list-group list-group-flush col-6">
-              <li class="list-group-item">⦿ NODE JS</li>
-              <li class="list-group-item">⦿ BOOTSTRAP</li>
-              <li class="list-group-item">⦿ JSON</li>
-              <li class="list-group-item">⦿ DATA STRUCTURES</li>
-              <li class="list-group-item">⦿ PROBLEM SOLVING</li>
-            </ul>
+          <div id="versioncontrol" class="row">
+            <div id="questions" class="col-6">
+              <h4 class="display-8">IT SKILLS</h4>
+            </div>
+            <div class="col-6">
+              <ul id="answers" class="list-group list-group-flush">
+                <li class="list-group-item">⦿ NODE JS</li>
+                <li class="list-group-item">⦿ BOOTSTRAP</li>
+                <li class="list-group-item">⦿ JSON</li>
+                <li class="list-group-item">⦿ DATA STRUCTURES</li>
+                <li class="list-group-item">⦿ PROBLEM SOLVING</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

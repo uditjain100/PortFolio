@@ -563,9 +563,7 @@ p {
 #cpTitle,
 #webTitle,
 #otherTitle {
-  text-align: center;
-  text-decoration: underline;
-  font-family: "Oswald";
+  font-family: "Montserrat";
 }
 
 #androidlanguages,
@@ -907,12 +905,6 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-}
-
-#webTitle,
-#androidTitle {
-  text-decoration: underline;
-  font-family: "Oswald";
 }
 
 #dbsdetails {

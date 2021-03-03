@@ -563,9 +563,7 @@ p {
 #cpTitle,
 #webTitle,
 #otherTitle {
-  text-align: center;
-  text-decoration: underline;
-  font-family: "Oswald";
+  font-family: "Montserrat";
 }
 
 #androidlanguages,
@@ -909,12 +907,6 @@ p {
   align-items: center;
 }
 
-#webTitle,
-#androidTitle {
-  text-decoration: underline;
-  font-family: "Oswald";
-}
-
 #dbsdetails {
   margin: 10px;
   min-width: 320px;
@@ -962,18 +954,12 @@ p {
   background-color: dodgerblue;
   border-top: 1px black solid;
   border-bottom: 1px black solid;
-  color: white;
   display: flex;
   margin: 20px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  transition: 0.3s;
-}
-
-#otherdetails:hover {
-  transform: scale(1.05);
 }
 
 #otherdetails div {
@@ -988,17 +974,21 @@ p {
 
 #otherdetails #questions {
   text-align: center;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: underline;
   font-family: "Montserrat";
 }
 
-#otherdetails #answers li {
-  background-color: dodgerblue;
+#otherdetails #answers {
   text-align: center;
+  font-size: 25px;
   font-weight: 400;
   font-family: "Montserrat";
+}
+
+#otherdetails div ul li {
+  background-color: dodgerblue;
 }
 
 /* * ************************************* Links Section */

@@ -563,9 +563,7 @@ p {
 #cpTitle,
 #webTitle,
 #otherTitle {
-  text-align: center;
-  text-decoration: underline;
-  font-family: "Oswald";
+  font-family: "Montserrat";
 }
 
 #androidlanguages,
@@ -909,9 +907,8 @@ p {
   align-items: center;
 }
 
-#webTitle,
-#androidTitle {
-  text-decoration: underline;
+#webtitle,
+#androidtitle {
   font-family: "Oswald";
 }
 
