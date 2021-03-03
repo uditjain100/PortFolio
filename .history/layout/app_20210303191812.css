@@ -168,9 +168,6 @@ p {
 
 /* ********************************* About Section */
 
-#about-section {
-}
-
 #about-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -194,6 +191,8 @@ p {
 }
 
 #aboutdetails {
+  background-color: #222;
+  color: white;
   padding: 15px;
   margin-top: 50px;
   display: flex;
@@ -203,9 +202,7 @@ p {
 }
 
 #aboutdetails div {
-  background-color: white;
-  border: 3px blue solid;
-  border-radius: 10%;
+  border: 1px white solid;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 500;
@@ -213,24 +210,13 @@ p {
 }
 
 #aboutdetails div:hover {
-  background-color: blue;
-  color: white;
-  border: 3px white solid;
+  text-decoration: underline;
   transition: 0.5s;
-  cursor: pointer;
+  transform: scaleX(1.25);
 }
 
 #aboutdetailsBody {
   margin: 10px;
-}
-
-#downloadresumebtn,
-#viewresumebtn {
-  background-color: blue;
-}
-#downloadresumebtn:hover,
-#viewresumebtn:hover {
-  transform: scale(1.05);
 }
 
 #introBasket {
@@ -496,9 +482,6 @@ p {
 
 /* ************************************* Skills Section */
 
-#skills-section {
-}
-
 #skills-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -617,7 +600,7 @@ p {
 
 #kotlinlanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -637,7 +620,7 @@ p {
 
 #javalanguageProgress::before {
   width: 55%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -657,7 +640,7 @@ p {
 
 #xmllanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -677,7 +660,7 @@ p {
 
 #cjlanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -697,7 +680,7 @@ p {
 
 #clanguageProgress::before {
   width: 60%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -717,7 +700,7 @@ p {
 
 #htmllanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -737,7 +720,7 @@ p {
 
 #csslanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -757,7 +740,7 @@ p {
 
 #javascriptlanguageProgress::before {
   width: 95%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -777,7 +760,7 @@ p {
 
 #reactlanguageProgress::before {
   width: 25%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -797,7 +780,7 @@ p {
 
 #pythonlanguageProgress::before {
   width: 40%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -817,7 +800,7 @@ p {
 
 #sqllanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -1058,7 +1041,6 @@ p {
 #linksHeadings div:hover {
   background-color: purple;
   transition: 0.5s;
-  cursor: pointer;
   transform: scaleX(1.05);
 }
 

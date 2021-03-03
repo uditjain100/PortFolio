@@ -228,10 +228,6 @@ p {
 #viewresumebtn {
   background-color: blue;
 }
-#downloadresumebtn:hover,
-#viewresumebtn:hover {
-  transform: scale(1.05);
-}
 
 #introBasket {
   width: 100%;
@@ -496,9 +492,6 @@ p {
 
 /* ************************************* Skills Section */
 
-#skills-section {
-}
-
 #skills-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -617,7 +610,7 @@ p {
 
 #kotlinlanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -637,7 +630,7 @@ p {
 
 #javalanguageProgress::before {
   width: 55%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -657,7 +650,7 @@ p {
 
 #xmllanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -677,7 +670,7 @@ p {
 
 #cjlanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -697,7 +690,7 @@ p {
 
 #clanguageProgress::before {
   width: 60%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -717,7 +710,7 @@ p {
 
 #htmllanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -737,7 +730,7 @@ p {
 
 #csslanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -757,7 +750,7 @@ p {
 
 #javascriptlanguageProgress::before {
   width: 95%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -777,7 +770,7 @@ p {
 
 #reactlanguageProgress::before {
   width: 25%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -797,7 +790,7 @@ p {
 
 #pythonlanguageProgress::before {
   width: 40%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -817,7 +810,7 @@ p {
 
 #sqllanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;

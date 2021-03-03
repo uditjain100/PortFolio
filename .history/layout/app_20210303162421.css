@@ -30,14 +30,9 @@ p {
   background-color: aquamarine;
 }
 
-#scrollbtn:hover {
-  background-color: chartreuse;
-  transition: 0.5s;
-  transform: scale(1.05);
-}
-
 #scrollbtn.see {
   display: block;
+  transition: transitionscroll 200ms;
 }
 
 #bars {
@@ -49,7 +44,7 @@ p {
 /* **************************************** Nav Section */
 
 #navbar.scrolled {
-  background-color: #222 !important;
+  background-color: black !important;
   transition: background-color 200ms linear;
 }
 
@@ -85,9 +80,9 @@ p {
 }
 
 #navlist li:hover {
-  transition: 0.5s;
-  transform: scale(1.05);
-  background-color: blue;
+  font-weight: 500;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
   border-bottom: 2px white solid;
 }
 
@@ -168,9 +163,6 @@ p {
 
 /* ********************************* About Section */
 
-#about-section {
-}
-
 #about-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -194,7 +186,6 @@ p {
 }
 
 #aboutdetails {
-  padding: 15px;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -203,34 +194,29 @@ p {
 }
 
 #aboutdetails div {
-  background-color: white;
-  border: 3px blue solid;
-  border-radius: 10%;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 500;
   min-width: 150px;
 }
 
+#education {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
 #aboutdetails div:hover {
-  background-color: blue;
-  color: white;
-  border: 3px white solid;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
   transition: 0.5s;
-  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 #aboutdetailsBody {
   margin: 10px;
-}
-
-#downloadresumebtn,
-#viewresumebtn {
-  background-color: blue;
-}
-#downloadresumebtn:hover,
-#viewresumebtn:hover {
-  transform: scale(1.05);
 }
 
 #introBasket {
@@ -393,11 +379,6 @@ p {
 
 /* ******************************** Services Section */
 
-#services-section {
-  background-color: black;
-  color: white;
-}
-
 #services-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -433,71 +414,25 @@ p {
 
 #androiddetails,
 #webdetails {
-  background-color: #222;
-  height: 55vh;
-  padding: 5px;
   min-width: 320px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   border: none;
-  margin-bottom: 150px;
-  transition: 0.5s;
-
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 1200px) {
-  #androiddetails,
-  #webdetails {
-    height: 63vh;
-  }
-}
-
-#androiddetails:hover,
-#webdetails:hover {
-  transform: scale(1.05);
-  background-color: blue;
-}
-
-#androiddetails div,
-#webdetails div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #androiddetails img,
 #webdetails img {
-  background-color: blue;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin: 10px;
-}
-
-#webdetails img {
-  padding: 20px;
+  height: 200px;
+  width: 200px;
 }
 
 #androiddetails #title,
 #webdetails #title {
   font-family: "Montserrat";
-  font-size: 25px;
-  text-align: center;
-}
-
-#androiddetails div #text,
-#webdetails div #text {
-  font-family: "Ubuntu";
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+  font-size: 28px;
 }
 
 /* ************************************* Skills Section */
-
-#skills-section {
-}
 
 #skills-heading {
   font-family: "Montserrat";
@@ -617,7 +552,7 @@ p {
 
 #kotlinlanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -637,7 +572,7 @@ p {
 
 #javalanguageProgress::before {
   width: 55%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -657,7 +592,7 @@ p {
 
 #xmllanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -677,7 +612,7 @@ p {
 
 #cjlanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -697,7 +632,7 @@ p {
 
 #clanguageProgress::before {
   width: 60%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -717,7 +652,7 @@ p {
 
 #htmllanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -737,7 +672,7 @@ p {
 
 #csslanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -757,7 +692,7 @@ p {
 
 #javascriptlanguageProgress::before {
   width: 95%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -777,7 +712,7 @@ p {
 
 #reactlanguageProgress::before {
   width: 25%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -797,7 +732,7 @@ p {
 
 #pythonlanguageProgress::before {
   width: 40%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -817,7 +752,7 @@ p {
 
 #sqllanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -1001,7 +936,7 @@ p {
 /* * ************************************* Links Section */
 
 #links-section {
-  width: 97.7vw;
+  width: 100vw;
   background-color: black;
   color: white;
 }
@@ -1037,11 +972,9 @@ p {
 }
 
 #linksHeadings div {
-  border-radius: 10%;
-  border: 1px white solid;
+  border: 3px white solid;
   text-align: center;
   color: white;
-  background-color: blue;
   font-family: "Montserrat";
   font-weight: 500;
   min-width: 150px;
@@ -1056,22 +989,20 @@ p {
 }
 
 #linksHeadings div:hover {
-  background-color: purple;
+  background-color: red;
   transition: 0.5s;
-  cursor: pointer;
-  transform: scaleX(1.05);
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 #techBasket {
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 #socialBasket {
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 50px;
   display: none;
 }
 
@@ -1103,14 +1034,15 @@ p {
 
 #techBasketData a,
 #socialBasketData a {
-  background-color: #333;
+  background-color: white;
   margin: 10px;
   min-width: 250px;
   text-decoration: none;
-  border-radius: 5%;
-  transition: 0.5s;
+  transition: 1s;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+  border-radius: 10%;
   font-family: "Montserrat";
-  color: white;
 
   display: flex;
   flex-wrap: wrap;
@@ -1121,25 +1053,21 @@ p {
 
 #techBasketData a:hover,
 #socialBasketData a:hover {
-  color: white;
-  transform: scale(1.05);
   text-decoration: underline;
-  box-shadow: 1px 1px 1px 1px gray;
-  background-color: blue;
+  margin-bottom: 1.2rem;
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 10%;
 }
 
 #techBasketData a div h5,
 #socialBasketData a div h5 {
   text-decoration: none;
+  color: black;
   font-size: 25px;
 }
 
 #techBasketData a img,
 #socialBasketData a img {
-  border-radius: 50%;
-  background-color: #999;
-  border: 2px white solid;
-  padding: 10px;
   margin-top: 20px;
   width: 70px;
   height: 70px;
@@ -1178,7 +1106,7 @@ p {
 }
 
 #contact-section {
-  background-color: #eee;
+  background-color: lightgray;
 }
 
 #phoneDetails,

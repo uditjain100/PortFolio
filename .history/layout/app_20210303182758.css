@@ -168,9 +168,6 @@ p {
 
 /* ********************************* About Section */
 
-#about-section {
-}
-
 #about-heading {
   font-family: "Montserrat";
   text-align: center;
@@ -194,7 +191,6 @@ p {
 }
 
 #aboutdetails {
-  padding: 15px;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -203,34 +199,29 @@ p {
 }
 
 #aboutdetails div {
-  background-color: white;
-  border: 3px blue solid;
-  border-radius: 10%;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 500;
   min-width: 150px;
 }
 
+#education {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
 #aboutdetails div:hover {
-  background-color: blue;
-  color: white;
-  border: 3px white solid;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
   transition: 0.5s;
-  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 #aboutdetailsBody {
   margin: 10px;
-}
-
-#downloadresumebtn,
-#viewresumebtn {
-  background-color: blue;
-}
-#downloadresumebtn:hover,
-#viewresumebtn:hover {
-  transform: scale(1.05);
 }
 
 #introBasket {
@@ -434,35 +425,13 @@ p {
 #androiddetails,
 #webdetails {
   background-color: #222;
-  height: 55vh;
-  padding: 5px;
+
+  height: 70vh;
+  padding: 10px;
   min-width: 320px;
   border: none;
   margin-bottom: 150px;
-  transition: 0.5s;
-
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 1200px) {
-  #androiddetails,
-  #webdetails {
-    height: 63vh;
-  }
-}
-
-#androiddetails:hover,
-#webdetails:hover {
-  transform: scale(1.05);
-  background-color: blue;
-}
-
-#androiddetails div,
-#webdetails div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: ;
 }
 
 #androiddetails img,
@@ -481,23 +450,10 @@ p {
 #androiddetails #title,
 #webdetails #title {
   font-family: "Montserrat";
-  font-size: 25px;
-  text-align: center;
-}
-
-#androiddetails div #text,
-#webdetails div #text {
-  font-family: "Ubuntu";
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+  font-size: 28px;
 }
 
 /* ************************************* Skills Section */
-
-#skills-section {
-}
 
 #skills-heading {
   font-family: "Montserrat";
@@ -617,7 +573,7 @@ p {
 
 #kotlinlanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -637,7 +593,7 @@ p {
 
 #javalanguageProgress::before {
   width: 55%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -657,7 +613,7 @@ p {
 
 #xmllanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -677,7 +633,7 @@ p {
 
 #cjlanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -697,7 +653,7 @@ p {
 
 #clanguageProgress::before {
   width: 60%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -717,7 +673,7 @@ p {
 
 #htmllanguageProgress::before {
   width: 90%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -737,7 +693,7 @@ p {
 
 #csslanguageProgress::before {
   width: 85%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -757,7 +713,7 @@ p {
 
 #javascriptlanguageProgress::before {
   width: 95%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -777,7 +733,7 @@ p {
 
 #reactlanguageProgress::before {
   width: 25%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -797,7 +753,7 @@ p {
 
 #pythonlanguageProgress::before {
   width: 40%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -817,7 +773,7 @@ p {
 
 #sqllanguageProgress::before {
   width: 80%;
-  background-color: blue;
+  background-color: crimson;
   height: 8px;
   left: 0;
   top: 0;
@@ -1007,6 +963,7 @@ p {
 }
 
 #links-heading {
+  color: blue;
   font-family: "Montserrat";
   text-align: center;
   font-weight: 700;
@@ -1058,7 +1015,6 @@ p {
 #linksHeadings div:hover {
   background-color: purple;
   transition: 0.5s;
-  cursor: pointer;
   transform: scaleX(1.05);
 }
 
@@ -1137,7 +1093,7 @@ p {
 #techBasketData a img,
 #socialBasketData a img {
   border-radius: 50%;
-  background-color: #999;
+  background-color: white;
   border: 2px white solid;
   padding: 10px;
   margin-top: 20px;
@@ -1178,7 +1134,7 @@ p {
 }
 
 #contact-section {
-  background-color: #eee;
+  background-color: lightgray;
 }
 
 #phoneDetails,

@@ -144,16 +144,14 @@ social.addEventListener("click", () => {
 })();
 
 $(document).ready(function () {
-  $("#msgsendbtn").click(function () {
-    $("#submitform").attr(
+  $("#bt1").click(function () {
+    $("#fr1").attr(
       "action",
-      "mailto:jain30udit@gmail.com?subject=" +
-        $("#subject").val() +
+      "mailto:test@test.com?subject=" +
+        $("#tb1").val() +
         "&body=" +
-        $("#message").val() +
-        $("#email").val() +
-        $("#phone").val()
+        $("#tb2").val()
     );
-    $("#submitform").submit();
+    $("#fr1").submit();
   });
 });

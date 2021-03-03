@@ -145,15 +145,15 @@ social.addEventListener("click", () => {
 
 $(document).ready(function () {
   $("#msgsendbtn").click(function () {
-    $("#submitform").attr(
+    $("#fr1").attr(
       "action",
-      "mailto:jain30udit@gmail.com?subject=" +
+      "mailto:test@test.com?subject=" +
         $("#subject").val() +
         "&body=" +
         $("#message").val() +
         $("#email").val() +
         $("#phone").val()
     );
-    $("#submitform").submit();
+    $("#fr1").submit();
   });
 });
