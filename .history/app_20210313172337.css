@@ -31,7 +31,7 @@ p {
 }
 
 #scrollbtn:hover {
-  background-color: #0f0;
+  background-color: chartreuse;
   transition: 0.5s;
   transform: scale(1.05);
 }
@@ -981,6 +981,7 @@ p {
 /* * ************************************* Links Section */
 
 #links-section {
+  background-color: black;
   color: white;
 }
 

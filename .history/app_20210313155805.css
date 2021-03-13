@@ -31,7 +31,7 @@ p {
 }
 
 #scrollbtn:hover {
-  background-color: #0f0;
+  background-color: chartreuse;
   transition: 0.5s;
   transform: scale(1.05);
 }
@@ -116,6 +116,10 @@ p {
 
 #home-section {
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/3.jpg");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -373,6 +377,7 @@ p {
 /* ******************************** Services Section */
 
 #services-section {
+  background-color: black;
   color: white;
 }
 
@@ -981,6 +986,8 @@ p {
 /* * ************************************* Links Section */
 
 #links-section {
+  width: 98.41vw;
+  background-color: black;
   color: white;
 }
 
@@ -1031,14 +1038,10 @@ p {
 }
 
 #linksHeadings div:hover {
-  background-color: cornflowerblue;
+  background-color: purple;
   transition: 0.5s;
   cursor: pointer;
   transform: scaleX(1.05);
-}
-
-#linksBody {
-  width: 100%;
 }
 
 #techBasket {

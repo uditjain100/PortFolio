@@ -146,31 +146,31 @@ social.addEventListener("click", () => {
 const msgForm = document.querySelector("#submitform");
 const msgBtn = document.querySelector("#msgsendbtn");
 
+const name = document.querySelector("#name");
+const mail = document.querySelector("#email");
+const phone = document.querySelector("#phone");
+const message = document.querySelector("#message");
+const subject = document.querySelector("#subject");
+
 const myemail = "jain30udit@gmail.com";
 
 const sendEmail = () => {
-  const name = document.querySelector("#name");
-  const mail = document.querySelector("#email");
-  const phone = document.querySelector("#phone");
-  const message = document.querySelector("#message");
-  const subject = document.querySelector("#subject");
-
   console.log(mail.value);
   console.log(message.value);
   console.log(phone.value);
   console.log(name.value);
   console.log(subject.value);
-  // Email.send({
-  //   Host: "smtp.gmail.com",
-  //   Username: myemail,
-  //   Password: "cfcbczdvdvxlalst",
-  //   To: myemail,
-  //   From: mail.value,
-  //   Subject: subject.value,
-  //   Body: message.value + "  :  " + phone.value + "    by    " + name.value,
-  // }).then((msg) => {
-  //   alert("Message sent Successfully 😀");
-  // });
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: myemail,
+    Password: "cfcbczdvdvxlalst",
+    To: myemail,
+    From: mail.value,
+    Subject: subject.value,
+    Body: message.value + "  :  " + phone.value + "    by    " + name.value,
+  }).then((msg) => {
+    alert("Message sent Successfully 😀");
+  });
 };
 
 msgBtn.addEventListener("click", sendEmail());

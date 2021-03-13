@@ -146,15 +146,15 @@ social.addEventListener("click", () => {
 const msgForm = document.querySelector("#submitform");
 const msgBtn = document.querySelector("#msgsendbtn");
 
+const name = document.querySelector("#name");
+const mail = document.querySelector("#email");
+const phone = document.querySelector("#phone");
+const message = document.querySelector("#message");
+const subject = document.querySelector("#subject");
+
 const myemail = "jain30udit@gmail.com";
 
 const sendEmail = () => {
-  const name = document.querySelector("#name");
-  const mail = document.querySelector("#email");
-  const phone = document.querySelector("#phone");
-  const message = document.querySelector("#message");
-  const subject = document.querySelector("#subject");
-
   console.log(mail.value);
   console.log(message.value);
   console.log(phone.value);

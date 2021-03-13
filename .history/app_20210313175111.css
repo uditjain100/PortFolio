@@ -578,7 +578,7 @@ p {
 #pythonlanguageProgress,
 #sqllanguageProgress {
   width: 100%;
-  background-color: lightgray;
+  background-color: ;
   height: 8px;
   position: relative;
 }

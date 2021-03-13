@@ -31,7 +31,7 @@ p {
 }
 
 #scrollbtn:hover {
-  background-color: #0f0;
+  background-color: chartreuse;
   transition: 0.5s;
   transform: scale(1.05);
 }
@@ -116,6 +116,11 @@ p {
 
 #home-section {
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/3.jpg");
+  background-attachment: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,6 +152,10 @@ p {
 }
 
 /* ********************************* About Section */
+
+#about-section {
+  background-attachment: fixed;
+}
 
 #about-heading {
   font-family: "Montserrat";
@@ -373,6 +382,7 @@ p {
 /* ******************************** Services Section */
 
 #services-section {
+  background-color: black;
   color: white;
 }
 
@@ -981,6 +991,7 @@ p {
 /* * ************************************* Links Section */
 
 #links-section {
+  background-color: black;
   color: white;
 }
 

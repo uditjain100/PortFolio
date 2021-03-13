@@ -147,14 +147,8 @@
       </nav>
     </header>
 
-    <section
-      id="home-section"
-      data-parallax="scroll"
-      data-z-index="1"
-      data-image-src="./images/3.jpg"
-      class="home-section"
-    >
-      <div id="homecontainer" class="container" style="z-index: 2">
+    <section id="home-section" class="home-section">
+      <div id="homecontainer" class="container">
         <div id="homeBox" class="row">
           <div id="homeboxdetailsleft" class="col-6">
             <h5 id="line1" style="font-family: 'Montserrat'">
@@ -452,12 +446,7 @@
       </div>
     </section>
 
-    <section
-      id="services-section"
-      class="services-section"
-      data-parallax="scroll"
-      data-image-src="./images/4.jpeg"
-    >
+    <section id="services-section" class="services-section">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -893,17 +882,13 @@
       </div>
     </section>
 
-    <section
-      id="links-section"
-      class="links-section"
-      data-parallax="scroll"
-      data-z-index="-10"
-      data-image-src="./images/5.jpeg"
-    >
+    <section id="links-section" class="links-section">
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 id="links-heading" class="display-5">Connections</h2>
+            <h2 id="links-heading" class="display-5" data-heading="portfolio">
+              Connections
+            </h2>
             <h4 id="links-subheading" class="display-7">
               <span
                 ><div
@@ -1332,7 +1317,7 @@
 
               <button
                 id="msgsendbtn"
-                type="button"
+                type="submit"
                 class="btn btn-primary my-3 rounded-pill"
               >
                 Send
@@ -1361,8 +1346,6 @@
       integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
       crossorigin="anonymous"
     ></script>
-
-    <script src="parallax.min.js"></script>
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 

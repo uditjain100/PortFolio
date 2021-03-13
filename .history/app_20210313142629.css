@@ -31,7 +31,7 @@ p {
 }
 
 #scrollbtn:hover {
-  background-color: #0f0;
+  background-color: chartreuse;
   transition: 0.5s;
   transform: scale(1.05);
 }
@@ -44,18 +44,6 @@ p {
   width: 90px;
   height: 5px;
   background-color: black;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: black;
-  cursor: pointer;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #999;
 }
 
 /* **************************************** Nav Section */
@@ -116,27 +104,43 @@ p {
 
 #home-section {
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/3.jpg");
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+@media (max-width: 995px) {
+  #homeboxdetailsleft {
+    margin-top: 100px;
+  }
+  #homeboxdetailsright {
+    margin-top: 50px;
+  }
 }
 
 #homeBox {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 650px) {
-  #homeBox {
-    display: flex;
-    justify-content: space-evenly;
+@keyframes transitionHome {
+  from {
+    margin-top: -70vh;
+  }
+
+  to {
+    margin-top: 13vh;
   }
 }
 
 #homeboxdetailsleft {
   margin-bottom: 10px;
-  min-width: 350px;
+  min-width: 320px;
   color: white;
   display: flex;
   border-left: 1px greenyellow solid;
@@ -144,6 +148,24 @@ p {
   flex-wrap: wrap;
   padding-top: 40px;
   padding-left: 30px;
+}
+
+#homeboxdetailsright {
+  margin-bottom: 10px;
+  min-width: 400px;
+  animation: transitionHome 1s;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeprofileimg {
+  width: 350px;
+  height: 350px;
+  box-shadow: 25px black;
+  border-radius: 10%;
 }
 
 /* ********************************* About Section */
@@ -373,6 +395,7 @@ p {
 /* ******************************** Services Section */
 
 #services-section {
+  background-color: black;
   color: white;
 }
 
@@ -981,6 +1004,8 @@ p {
 /* * ************************************* Links Section */
 
 #links-section {
+  width: 97.7vw;
+  background-color: black;
   color: white;
 }
 
@@ -1025,34 +1050,37 @@ p {
   min-width: 150px;
 }
 
-#techHeading,
-#socialHeading {
+#techHeading {
   border-right: 1px black solid;
 }
 
+#socialHeading {
+  border-left: 1px black solid;
+}
+
 #linksHeadings div:hover {
-  background-color: cornflowerblue;
+  background-color: purple;
   transition: 0.5s;
   cursor: pointer;
   transform: scaleX(1.05);
 }
 
-#linksBody {
-  width: 100%;
-}
-
 #techBasket {
+  width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 #socialBasket {
+  width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
   display: none;
 }
 
 #techBasketData {
+  width: 95vw;
+  height: 100%;
   margin-bottom: 20px;
   animation: transitionIn 1s;
 
@@ -1064,6 +1092,8 @@ p {
 }
 
 #socialBasketData {
+  width: 95vw;
+  height: 100%;
   margin-bottom: 20px;
   animation: transitionIn 1s;
 
