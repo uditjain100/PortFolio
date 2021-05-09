@@ -421,9 +421,6 @@ p {
   border: none;
   margin-bottom: 150px;
   transition: 0.5s;
-  border-bottom-left-radius: 20%;
-  border-bottom: 2px blue solid;
-  border-right: 2px blue solid;
 
   display: flex;
   align-items: center;
@@ -440,8 +437,6 @@ p {
 #webdetails:hover {
   transform: scale(1.05);
   background-color: blue;
-  border-bottom: 2px white solid;
-  border-right: 2px white solid;
 }
 
 #androiddetails div,
@@ -1165,7 +1160,9 @@ p {
   background-color: #eee;
 }
 
-address a {
+#phoneDetails,
+#addressDetails,
+#emailDetails {
   background-color: lightgray;
   min-width: 300px;
   box-shadow: 2px 2px 2px 2px black;
@@ -1179,10 +1176,16 @@ address a {
   margin-bottom: 10px;
   transition: 0.5s;
 }
-address a:hover {
+#phoneDetails:hover,
+#addressDetails:hover,
+#emailDetails:hover {
   background-color: gray;
+  color: white;
 }
-address a img {
+
+#phoneDetails img,
+#addressDetails img,
+#emailDetails img {
   width: 40px;
   height: 40px;
   margin-bottom: 15px;

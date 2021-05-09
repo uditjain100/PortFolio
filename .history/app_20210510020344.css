@@ -421,9 +421,6 @@ p {
   border: none;
   margin-bottom: 150px;
   transition: 0.5s;
-  border-bottom-left-radius: 20%;
-  border-bottom: 2px blue solid;
-  border-right: 2px blue solid;
 
   display: flex;
   align-items: center;
@@ -440,8 +437,6 @@ p {
 #webdetails:hover {
   transform: scale(1.05);
   background-color: blue;
-  border-bottom: 2px white solid;
-  border-right: 2px white solid;
 }
 
 #androiddetails div,

@@ -440,8 +440,6 @@ p {
 #webdetails:hover {
   transform: scale(1.05);
   background-color: blue;
-  border-bottom: 2px white solid;
-  border-right: 2px white solid;
 }
 
 #androiddetails div,

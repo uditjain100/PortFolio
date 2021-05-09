@@ -21,14 +21,22 @@ p {
 }
 
 #scrollbtn {
-  display: none;
+  width: 350px;
+  height: 500px;
+  padding: 300px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+
+  /* display: none;
   position: fixed;
   right: 30px;
   bottom: 30px;
   cursor: pointer;
   border-radius: 20%;
   border: 1px blue solid;
-  background-color: aquamarine;
+  background-color: aquamarine; */
 }
 
 #scrollbtn:hover {
@@ -421,9 +429,6 @@ p {
   border: none;
   margin-bottom: 150px;
   transition: 0.5s;
-  border-bottom-left-radius: 20%;
-  border-bottom: 2px blue solid;
-  border-right: 2px blue solid;
 
   display: flex;
   align-items: center;
@@ -440,8 +445,6 @@ p {
 #webdetails:hover {
   transform: scale(1.05);
   background-color: blue;
-  border-bottom: 2px white solid;
-  border-right: 2px white solid;
 }
 
 #androiddetails div,
