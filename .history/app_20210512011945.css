@@ -87,8 +87,6 @@ p {
   align-items: center;
   border-bottom: 2px white solid;
   border-top: 2px white solid;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
 }
 
 #navlist li img {
